@@ -7,6 +7,9 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   return (
@@ -23,9 +26,12 @@ function App() {
       <Welcome name="Mr." surname="Perfect"/>
       <Welcome name="Mrs."surname="Perfect"/>
       <Welcome name="all"/> */}
-      <Greet name="Chandru" surname="Ramasubramanian"/>
-      <FunctionClick />
-      <ClassClick />
+      {/* <Greet name="Chandru" surname="Ramasubramanian"/> */}
+      {/* <FunctionClick />
+      <ClassClick /> */}
+      {/* <EventBind /> */}
+      {/* <ParentComponent /> */}
+      <UserGreeting />
 
     </div>
   );
