@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class ClassClick extends Component {
 
     clickHandler(){
-        console.log('Clicked the button')
+        console.log('Click the button')
     }
   render() {
     return (
