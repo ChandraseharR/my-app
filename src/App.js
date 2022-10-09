@@ -27,7 +27,7 @@ function App() {
       <Welcome name="Mr." surname="Perfect"/>
       <Welcome name="Mrs."surname="Perfect"/>
       <Welcome name="all"/> */}
-      {/* <Greet name="Chandru" surname="Ramasubramanian"/> */}
+      <Greet name="Chandru" surname="Ramasubramanian"/>
       {/* <FunctionClick />
       <ClassClick /> */}
       {/* <EventBind /> */}
